@@ -56,3 +56,9 @@ ScrollReveal().reveal('.about__btn', {
   ...scrollRevealOption,
   delay: 2000,
 });
+
+// room section
+ScrollReveal().reveal('.room__card', {
+  ...scrollRevealOption,
+  interval: 500,
+});
