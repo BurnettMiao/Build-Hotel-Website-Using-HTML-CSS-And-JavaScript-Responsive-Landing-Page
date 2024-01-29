@@ -232,6 +232,19 @@ nav {
   color: var(--text-light);
 }
 
+/* about section */
+.about__container {
+  overflow: hidden;
+  display: grid;
+  gap: 2rem;
+}
+
+.about__image img {
+  max-width: 450px;
+  margin: auto;
+  border-radius: 5px;
+}
+
 @media (width > 768px) {
   nav {
     padding: 2rem 1rem;
@@ -277,5 +290,11 @@ nav {
 
   .nav__links a:hover::after {
     width: 100%;
+  }
+
+  /* about section */
+  .about__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
   }
 }
